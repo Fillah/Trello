@@ -26,8 +26,29 @@
           </ul>
 
           <div class="logo">
-            <h5>Container</h5>
+            <img src="https://d2k1ftgv7pobq7.cloudfront.net/meta/u/res/images/brand-assets/Logos/0099ec3754bf473d2bbf317204ab6fea/trello-logo-blue.png" alt="logo" class="img-responsive">
           </div>
+
+          <ul class="right">
+            <li>
+              <a href="#">
+                <div class="flex-row flex-center user">
+                  <img src="./assets/images/me.png" alt="me">
+                  <p>Hello, Jonas!</p>
+                </div>
+              </a>
+            </li>
+            <li class="notifications">
+              <a href="#">
+                <i class="material-icons">notifications_none</i>
+              </a>
+            </li>
+            <li class="menu-right">
+              <a href="#">
+                <i class="material-icons">menu</i>
+              </a>
+            </li>
+          </ul>
 
         </div>
       </div>
