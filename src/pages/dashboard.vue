@@ -1,14 +1,36 @@
 <template>
   <div class="dashboard content">
-    <img src="./../assets/images/logo.png" class="img-center" alt="Vue.js PWA">
-    <div class="grid-x">
-      <div class="small-6 cell">
-        <h1 class="text-center">{{ msg }}</h1>
-      </div>
-      <div class="small-6 cell">
-        <h1 class="text-center">https://material.io/icons/ <i class="material-icons">check_circle</i></h1>
+
+    <div class="selected-board">
+      <div class="flex-row">
+        <div class="icon">
+          <i class="material-icons">star_rate</i>
+        </div>
+        <div class="board-name">
+          <h1>Planner Board</h1>
+          <p>Netguru</p>
+        </div>
+        <div class="board-visibility">
+          <i class="material-icons">remove_red_eye</i>
+          <span>Team visible</span>
+        </div>
       </div>
     </div>
+
+    <div class="board-container">
+      <div class="flex-row flex-space">
+        <div class="board">
+
+        </div>
+        <div class="board">
+          
+        </div>
+        <div class="board">
+          
+        </div>
+      </div>
+    </div>
+
   </div>
 </template>
 

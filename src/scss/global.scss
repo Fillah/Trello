@@ -24,7 +24,7 @@
 
 body {
   margin: 0;
-  background-color: $light-gray;
+  background-color: #f1f2f4;
 }
   
 #app {
@@ -70,7 +70,7 @@ header {
   position: relative;
   margin-bottom: 30px;
   color: $dark-gray;
-  box-shadow: 0 4px 10px 0 rgba(50, 50, 50, .1), 0 3px 10px 0 rgba(50, 50, 50, .1);
+  box-shadow: 2px 4px 10px 2px rgba(180, 180, 180, 0.1), 0 3px 10px 0 rgba(80, 80, 80, 0.1);
 
   & .wrap {
     max-width: 100%;
@@ -257,4 +257,9 @@ h6 {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+}
+
+.flex-space {
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
 }
