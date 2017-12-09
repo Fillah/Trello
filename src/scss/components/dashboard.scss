@@ -4,7 +4,7 @@
     & .icon {
         width: 45px;
         height: 45px;
-        background-color: #4680FF;
+        background-color: $blue;
         padding: 11px;
         margin-top: 3px;
         border-radius: 3px;
@@ -15,7 +15,7 @@
         }
     }
 
-    & .board-name {
+    & .name {
         margin-left: 20px;
 
         & h1 {
@@ -40,6 +40,10 @@
             float: left;
             margin-right: 7px;
         }
+
+        & i, & span {
+            cursor: pointer;
+        }
     }
 }
 
@@ -51,11 +55,53 @@
 
     & .board {
         height: 400px;
-        width: 300px;
+        width: 250px;
         padding-left: 8px;
         padding-right: 8px;
         background-color: $white;
         border-radius: 3px;
         box-shadow: 2px 4px 10px 2px rgba(180, 180, 180, 0.1), 0 3px 10px 0 rgba(80, 80, 80, 0.1);
+
+        & .board-name {
+            padding-top: 32px;
+            padding-bottom: 32px;
+
+            & h4 {
+                margin-bottom: 0px;
+                display: inline-block;
+                padding-left: 18px;
+                position: relative;
+
+                &::before {
+                    content: '';
+                    width: 9px;
+                    height: 9px;
+                    border-radius: 50%;
+                    position: absolute;
+                    border: 2px solid #4680FF;
+                    left: 0;
+                    top: 10px;
+                }
+            }
+
+            & .dots {
+                float: right;
+                color: $medium-gray;
+                cursor: pointer;
+            }
+        }
+
+        & .board-item {
+            border: 1px solid $light-gray;
+            margin-bottom: 16px;
+
+            .name {
+                padding: 8px;
+                
+                & p {
+                    font-size: 0.9rem;
+                }
+            }
+        }
     }
 }

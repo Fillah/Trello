@@ -6,7 +6,7 @@
         <div class="icon">
           <i class="material-icons">star_rate</i>
         </div>
-        <div class="board-name">
+        <div class="name">
           <h1>Planner Board</h1>
           <p>Netguru</p>
         </div>
@@ -20,7 +20,21 @@
     <div class="board-container">
       <div class="flex-row flex-space">
         <div class="board">
+          <div class="board-name">
+            <h4>Projects</h4>
+            <div class="dots">
+              <i class="material-icons">more_horiz</i>
+            </div>
+          </div>
 
+          <div class="board-item">
+            <div class="name">
+              <p>Stage 1 - prepare</p>
+            </div>
+          </div>
+        </div>
+        <div class="board">
+          
         </div>
         <div class="board">
           
